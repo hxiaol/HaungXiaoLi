@@ -1,0 +1,74 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom"}
+		},
+		{
+			"path": "pages/basics/flop",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/horse",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/turntable",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/scrape",
+			"style": {}
+		},
+		{
+			"path": "pages/basics/draw",
+			"style": {
+		    	"navigationBarTitleText": "大转盘",
+		        "navigationBarBackgroundColor": "#c30000"			}
+		},
+		{
+		    "path": "pages/component/mouse",
+		    	"navigationBarTitleText": "打地鼠游戏",
+		    "style": {		    	
+		        "navigationBarBackgroundColor": "#45454d",				
+				"backgroundColor": "#45454d"
+		    }
+			
+		},
+
+		{
+			"path": "pages/component/gobang",
+			"style": {}
+		},
+		{
+			"path": "pages/component/jigsawpuzzle",
+			"style": {}
+		},
+		{
+			"path": "pages/my/resume",
+			"style": {}
+		}
+		
+	],
+	"globalStyle": {
+		"mp-alipay": {
+			"transparentTitle": "always",
+			"allowsBounceVertical": "NO"
+		},
+		"navigationBarBackgroundColor": "#aaaaff",
+		"navigationBarTitleText": "UniApp",
+		"navigationBarTextStyle": "white"
+	},
+	"usingComponts": true,
+		"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+				"name": "表单", //模式名称
+				"path": "pages/component/form", //启动页面
+				"query": "" //启动参数
+			}
+		]
+	}
+
+}
